@@ -1,0 +1,24 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.gutter {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0 1px 5px grey;
+}
+
+#title {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > * {
+    margin-top: 10px;
+}
